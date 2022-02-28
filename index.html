@@ -102,11 +102,11 @@
 <div id="account-information-wrapper" class="account-information-wrapper">
 <div class="account-information-inner-wrapper">
 <div id="close-account-information-wrapper" class="close-account-information-wrapper"><i class="fa fa-times" aria-hidden="true"></i></div>
-<h4>Account Information</h4>
+<h4>Informação da conta</h4>
 <div class="account-info-fields-wrapper">
 <div class="account-username-wrapper">
-<label class="generator-input-label" for="account-username">Enter your username</label>
-<input type="text" id="account-username" class="generator-input account-input" placeholder="Your Username ..." />
+<label class="generator-input-label" for="account-username">Entre Com Seu Nome De Usuário</label>
+<input type="text" id="Nome de usuário da conta" class="generator-input account-input" placeholder="Your Username ..." />
 </div>
 <div class="account-platform-wrapper">
 <label class="generator-input-label" for="account-platform">Platform:</label>
@@ -673,7 +673,7 @@ to your account.</p>
             if ($('#account-username').val() != '') {
                 loading_step()
             } else {
-                swal("Error", "Please enter your Username.", "error");
+                swal("Error", "Por favor insira seu nome de usuário.", "error");
             }
         });
 
